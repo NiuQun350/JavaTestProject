@@ -14,4 +14,11 @@ class TriangleTest {
 		assertEquals("不等边三角形", type);
 	}
 
+	@Test
+	void equallaterialTriangle() {
+		Triangle triangle = new Triangle();
+		
+		String type = triangle.triangle(3, 3, 3);
+		assertEquals("等边三角形", type);
+	}
 }
