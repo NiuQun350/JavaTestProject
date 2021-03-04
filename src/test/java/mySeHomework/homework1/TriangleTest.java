@@ -21,4 +21,13 @@ class TriangleTest {
 		String type = triangle.triangle(3, 3, 3);
 		assertEquals("等边三角形", type);
 	}
+	
+	@Test
+	void notTriangle() {
+		Triangle triangle = new Triangle();
+		
+		String type = triangle.triangle(3, 3, 6);
+		assertEquals("不是三角形", type);
+	}
+	
 }
