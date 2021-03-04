@@ -8,6 +8,12 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import cn.edu.ctgu.junitTest.Triangle;
 
+/***
+ * 
+ * @author tiger
+ * @date 2021年3月4日-下午8:43:13
+ * @description 三角形测试用例
+ */
 class TriangleTest {
 
 	@Test
