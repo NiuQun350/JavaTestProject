@@ -2,6 +2,7 @@ package mySeHomework.homework1;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -17,6 +18,7 @@ import cn.edu.ctgu.junitTest.Triangle;
 class TriangleTest {
 
 	@Test
+	@DisplayName(value="不等边三角形")
 	void testTriangle() {
 		Triangle triangle = new Triangle();
 		
